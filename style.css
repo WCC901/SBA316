@@ -10,6 +10,26 @@ body {
 }
 
 #interactionArea {
-    /* position: relative; */
     margin: auto;
+    text-align: center;
+}
+
+#dinoDesc {
+    margin: auto;
+    width: 50%;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+#dinoDesc > h2 {
+    text-align: center;
+}
+
+#gallery {
+    display: flex;
+    justify-content: space-around;
+}
+
+#gallery > img:hover {
+    cursor: pointer;
 }
