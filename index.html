@@ -5,16 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="index.js"></script>
-    <title>Document</title>
+    <title>Periods of The Mesozoic Era</title>
 </head>
 <body>
     <header>
-        <h1>Periods of The Mesozoic Era</h1>
+        <h1 id="title">Periods of The Mesozoic Era</h1>
     </header>
+    <div id="interactionArea">
+        <label for="eras">Choose An Era:</label>
+        <select name="eras" id="eras">
+            <option value="triassic">Triassic Period</option>
+            <option value="jurassic">Jurassic Period</option>
+            <option value="cretaceous">Cretaceous Period</option>
+        </select>
+        <input type="submit" value="Go!">
+    </div>
     <div id="gallery">
+        <img src="./shoni.jpg" height=100px alt="Shonisaurus Picture">
         <img src="" alt="">
         <img src="" alt="">
-        <img src="" alt="">
+    </div>
+    <div>
+        <h1 id="dinoDesc">Click on a dinosaur for it's info.</h1>
     </div>
 </body>
 </html>
